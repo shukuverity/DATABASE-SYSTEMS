@@ -22,6 +22,8 @@ The database system will contribute to overcoming such challenges by providing i
 
 
 
+Stakeholders
+
 
 1.	Smallholder Farmers: input and access data on sustainable practices. The system will provide them with insights into crop diversification, soil conservation, and local resources to enhance yields and soil health. Training and support materials in local languages will ensure they can effectively use the database.
 2.	Agricultural Extension Officers:  support farmers by sharing knowledge, will use the database as a centralized resource to guide farmers on environmentally sustainable practices suited to Kenya’s climate.
