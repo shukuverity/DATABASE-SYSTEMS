@@ -6,6 +6,7 @@ To kick off this project description we need to first ask ourselves, who are sma
 Our group project is on developing a database system for tracking and promoting sustainable farming practices among smallholder farmers. The database system targets certain needs, particularly in the Kenyan context. The main functionality of the database will be targeted at focusing on two major areas:
 
 a)	crop diversification 
+
 b)	soil conservation.
 
 The agricultural sector in the country facing declining soil fertility and low yields with vulnerability to climate change, unsustainable farming methods like monocropping only further degrade the soil and reduce biodiversity. Most smallholder farmers have neither the resources nor knowledge to farm more sustainably, hence maintaining poor productivity on their farms threatens food security and economic stability.
