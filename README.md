@@ -1,4 +1,7 @@
 Project Definition:Sustainable Agricultural Practises Database
+
+
+
 To kick off this project description we need to first ask ourselves, who are smallholder farmers? They are basically individuals cultivating small plots of land for subsistence use or local markets.
 Our group project is on developing a database system for tracking and promoting sustainable farming practices among smallholder farmers. The database system targets certain needs, particularly in the Kenyan context. The main functionality of the database will be targeted at focusing on two major areas:
 a)	crop diversification 
