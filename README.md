@@ -20,6 +20,59 @@ Most of the food production in Kenya comes from the many small-scale farmers who
 
 The database system will contribute to overcoming such challenges by providing insights into data-supported decisions for sustainable practice and monitoring of progress toward such goals. This will result in improved food security, reduction of poverty levels, and environmental sustainability in Kenya.
 
+Specific Objectives
+Objective 1: Promote Crop Diversification
+
+Support farmers to diversify crops with the view of spreading risk and improving soil health.
+Advise on compatible combinations of crops that suit particular conditions.
+Objective 2: Enhance Soil Conservation
+
+Monitor and promote practices associated with soil conservation-cover cropping, reduced tillage, composting.
+Monitor indicators of soil health and recommend measures to enhance these.
+Objective 3: Facilitate Knowledge Sharing
+
+Allow farmers to share in experiences, challenges, and solutions relative to the adoption of sustainable practices.
+Provide access to education and expert advice.
+Objective 4: Data-Driven Decision Making
+
+Provide farmers with the ability to track practices, yields, and soil health over time.
+Reports are generated that will enable farmers to make better data-driven decisions regarding crop selection and best management practices.
+Objective 5: Impact and Sustainability
+
+Assess how diversified cropping and soil conservation will add to the productivity of the farm and health of the environment.
+Identify success indicators and areas of further improvement.
+Key Functionalities and Features
+1. User Management
+Farmer Profile Creation: Farmers can sign up by creating profiles and listing their farms.
+User Roles: Different levels of access for farmers, agricultural experts, and administrators.
+2. Crop and Soil Management
+Crop Database: Extensive database on various crops concerning growth requirements and their respective benefits.
+Tracking Soil Health: the ability to input and track the results of soil tests overtime.
+
+3. Tracking Sustainable Practices
+Practice Log: the ability for farmers to log sustainable practices utilized within their farms.
+Diversification Planner: a tool to assist farmers in planning and visualizing crop rotation and diversification.
+
+4. Yield and Impact Monitoring
+Yield Tracking: input and analyze yield data across a variety of crops.
+Impact Reports: generate reports on how yield and soil health is impacted by the sustainable practices employed.
+
+5. Education and Support
+Resource Library: Provide access to training material, guides, and best practices in sustainable farming.
+Advisory Services: Allow farmers to connect with agricultural experts for tailored advice.
+6. Collaboration Tools
+Discussion Forums: Enable farmers to communicate with others, share information, and so on.
+Success Stories: Success stories-case studies and good practices-should be highlighted to guide others.
+7. Data Analysis and Visualization
+Dashboard: Real-time dynamic interface with visualizations of key metrics, trends, and comparisons.
+Analytics Tools: Include analytics functionalities to extract from the data patterns that could be the basis for decision-making.
+8. Mobile Access
+Mobile Application: This provides farmers with the possibility of accessing and updating the data through smartphones for real-time input and monitoring.
+9. Community Outreach and Rewards
+Incentives: Number of farmers participating in the sustainability programs and rewards for successful implementation
+Events Calendar: Notice of workshops, training sessions, and community events
+   
+
 
 
 Stakeholders
