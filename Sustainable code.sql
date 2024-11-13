@@ -110,6 +110,11 @@ INSERT INTO Plots (PlotID, FarmerID, Size, Location)
 VALUES (1, 1, 2.5, 'North of Village A'),
 	(2, 2, 3.0, 'South of Village B'),
 	(3, 3, 1.8, 'East of Village C');
+-- Insert crops
+INSERT INTO Crops (CropID, PlotID, CropTypeID, PlantingDate, HarvestingDate, IsDiversified)
+VALUES (1, 1, 1, '2024-03-01', '2024-07-15', TRUE),
+	(2, 2, 2, '2024-04-01', '2024-08-15', FALSE),
+	(3, 3, 1, '2024-05-01', '2024-09-15', TRUE);
 
 
 
