@@ -94,6 +94,16 @@ CREATE INDEX idx_farmer_location ON Farmers (Location);
 CREATE INDEX idx_plot_size ON Plots (Size);
 CREATE INDEX idx_crop_type ON Crops (CropTypeID);
 
+-- Insert crop types
+INSERT INTO CropTypes (CropTypeID, CropTypeName)
+VALUES (1, 'Maize'),
+	(2, 'Beans');
+
+-- Insert farmers
+INSERT INTO Farmers (FarmerID, Name, Location, ContactInfo)
+VALUES (1, 'John Doe', 'Village A', '123-456-7890'),
+	(2, 'Jane Smith', 'Village B', '987-654-3210'),
+	(3, 'Michael Johnson', 'Village C', '555-555-5555');
 
 
 
