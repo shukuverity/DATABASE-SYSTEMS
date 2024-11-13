@@ -136,6 +136,17 @@ INSERT INTO Yield (YieldID, PlotID, CropID, Year, TotalYield)
 VALUES (1, 1, 1, 2024, 3.2),
 	(2, 2, 2, 2024, 4.5),
 	(3, 3, 1, 2024, 2.8);
+-- Insert inventory records
+INSERT INTO Inventory (InventoryID, PlotID, ItemName, Quantity, Unit)
+VALUES (1, 1, 'Maize Seeds', 50, 'kg'),
+	(2, 2, 'Bean Seeds', 30, 'kg'),
+	(3, 3, 'Maize Seeds', 40, 'kg');
+	-- Insert more crop types
+	INSERT INTO CropTypes (CropTypeID, CropTypeName)
+	VALUES (3, 'Wheat'),
+		(4, 'Rice'),
+		(5, 'Potato');
+
 
 
 
