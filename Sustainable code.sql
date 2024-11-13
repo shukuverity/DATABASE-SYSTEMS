@@ -126,6 +126,13 @@ INSERT INTO SoilHealthMonitoring (MonitoringID, PlotID, MonitoringDate, SoilPH, 
 VALUES (1, 1, '2024-06-20', 6.5, 4.2, 'Low', 'Healthy soil with good organic content.'),
 	(2, 2, '2024-07-20', 6.8, 3.8, 'Medium', 'Improving soil quality through sustainable practices.'),
 	(3, 3, '2024-08-20', 6.2, 4.5, 'Low', 'Implementing erosion control measures.');
+-- Insert profit records
+INSERT INTO Profit (ProfitID, PlotID, Year, Revenue, Cost)
+VALUES (1, 1, 2024, 5000, 3000),
+	(2, 2, 2024, 6000, 3500),
+	(3, 3, 2024, 4000, 2500);
+
+
 
 
 
