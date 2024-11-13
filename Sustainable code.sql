@@ -43,6 +43,19 @@ CREATE TABLE Practices (
 	FOREIGN KEY (PlotID) REFERENCES Plots(PlotID)
 	ON DELETE CASCADE
 );
+-- Create SoilHealthMonitoring Table
+CREATE TABLE SoilHealthMonitoring (
+	MonitoringID INT PRIMARY KEY,
+	PlotID INT NOT NULL,
+	MonitoringDate DATE NOT NULL,
+	SoilPH FLOAT,
+	OrganicMatter FLOAT,
+	ErosionLevel VARCHAR(50),
+	Notes TEXT,
+	FOREIGN KEY (PlotID) REFERENCES Plots(PlotID)
+	ON DELETE CASCADE
+);
+
 
 
 
