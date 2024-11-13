@@ -89,6 +89,14 @@ CREATE TABLE Inventory (
 	ON DELETE CASCADE
 );
 
+-- Add Indexes for Optimization
+CREATE INDEX idx_farmer_location ON Farmers (Location);
+CREATE INDEX idx_plot_size ON Plots (Size);
+CREATE INDEX idx_crop_type ON Crops (CropTypeID);
+-- Insert crop types
+INSERT INTO CropTypes (CropTypeID, CropTypeName)
+VALUES (1, 'Maize'),
+	(2, 'Beans');
 
 
 
