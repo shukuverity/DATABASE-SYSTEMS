@@ -105,6 +105,13 @@ VALUES (1, 'John Doe', 'Village A', '123-456-7890'),
 	(2, 'Jane Smith', 'Village B', '987-654-3210'),
 	(3, 'Michael Johnson', 'Village C', '555-555-5555');
 
+-- Insert plots
+INSERT INTO Plots (PlotID, FarmerID, Size, Location)
+VALUES (1, 1, 2.5, 'North of Village A'),
+	(2, 2, 3.0, 'South of Village B'),
+	(3, 3, 1.8, 'East of Village C');
+
+
 
 
 
