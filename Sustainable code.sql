@@ -78,6 +78,16 @@ CREATE TABLE Yield (
 	FOREIGN KEY (CropID) REFERENCES Crops(CropID)
 	ON DELETE CASCADE
 );
+-- Create Inventory Table
+CREATE TABLE Inventory (
+	InventoryID INT PRIMARY KEY,
+	PlotID INT NOT NULL,
+	ItemName VARCHAR(100) NOT NULL,
+	Quantity FLOAT,
+	Unit VARCHAR(50),
+	FOREIGN KEY (PlotID) REFERENCES Plots(PlotID)
+	ON DELETE CASCADE
+);
 
 
 
