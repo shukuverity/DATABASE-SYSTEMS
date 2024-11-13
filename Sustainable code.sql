@@ -121,6 +121,12 @@ VALUES (1, 1, 'Crop Rotation', '2024-02-15', 'Rotated maize with beans.'),
 	(2, 2, 'Cover Cropping', '2024-03-15', 'Planted cover crops to improve soil health.'),
 	(3, 3, 'Integrated Pest Management', '2024-04-15', 'Used biological controls to manage pests.');
 
+-- Insert soil health monitoring records
+INSERT INTO SoilHealthMonitoring (MonitoringID, PlotID, MonitoringDate, SoilPH, OrganicMatter, ErosionLevel, Notes)
+VALUES (1, 1, '2024-06-20', 6.5, 4.2, 'Low', 'Healthy soil with good organic content.'),
+	(2, 2, '2024-07-20', 6.8, 3.8, 'Medium', 'Improving soil quality through sustainable practices.'),
+	(3, 3, '2024-08-20', 6.2, 4.5, 'Low', 'Implementing erosion control measures.');
+
 
 
 
