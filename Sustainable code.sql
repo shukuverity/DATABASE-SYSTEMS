@@ -131,6 +131,12 @@ INSERT INTO Profit (ProfitID, PlotID, Year, Revenue, Cost)
 VALUES (1, 1, 2024, 5000, 3000),
 	(2, 2, 2024, 6000, 3500),
 	(3, 3, 2024, 4000, 2500);
+-- Insert yield records
+INSERT INTO Yield (YieldID, PlotID, CropID, Year, TotalYield)
+VALUES (1, 1, 1, 2024, 3.2),
+	(2, 2, 2, 2024, 4.5),
+	(3, 3, 1, 2024, 2.8);
+
 
 
 
