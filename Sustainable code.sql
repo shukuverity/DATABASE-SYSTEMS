@@ -20,5 +20,19 @@ CREATE TABLE Plots (
 	FOREIGN KEY (FarmerID) REFERENCES Farmers(FarmerID)
 	ON DELETE CASCADE
 );
+-- Create Crops Table
+CREATE TABLE Crops (
+	CropID INT PRIMARY KEY,
+	PlotID INT NOT NULL,
+	CropTypeID INT NOT NULL,
+	PlantingDate DATE,
+	HarvestingDate DATE,
+	IsDiversified BOOLEAN DEFAULT FALSE,
+	FOREIGN KEY (PlotID) REFERENCES Plots(PlotID)
+	ON DELETE CASCADE,
+	FOREIGN KEY (CropTypeID) REFERENCES CropTypes(CropTypeID)
+	ON DELETE CASCADE
+);
+
 
 
