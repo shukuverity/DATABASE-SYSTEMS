@@ -115,6 +115,12 @@ INSERT INTO Crops (CropID, PlotID, CropTypeID, PlantingDate, HarvestingDate, IsD
 VALUES (1, 1, 1, '2024-03-01', '2024-07-15', TRUE),
 	(2, 2, 2, '2024-04-01', '2024-08-15', FALSE),
 	(3, 3, 1, '2024-05-01', '2024-09-15', TRUE);
+-- Insert practices
+INSERT INTO Practices (PracticeID, PlotID, PracticeType, StartDate, Description)
+VALUES (1, 1, 'Crop Rotation', '2024-02-15', 'Rotated maize with beans.'),
+	(2, 2, 'Cover Cropping', '2024-03-15', 'Planted cover crops to improve soil health.'),
+	(3, 3, 'Integrated Pest Management', '2024-04-15', 'Used biological controls to manage pests.');
+
 
 
 
