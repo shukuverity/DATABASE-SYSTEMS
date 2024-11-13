@@ -55,6 +55,18 @@ CREATE TABLE SoilHealthMonitoring (
 	FOREIGN KEY (PlotID) REFERENCES Plots(PlotID)
 	ON DELETE CASCADE
 );
+-- Create Profit Table
+CREATE TABLE Profit (
+	ProfitID INT PRIMARY KEY,
+	PlotID INT NOT NULL,
+	Year INT NOT NULL,
+	Revenue FLOAT NOT NULL,
+	Cost FLOAT NOT NULL,
+	Profit FLOAT GENERATED ALWAYS AS (Revenue - Cost) STORED,
+	FOREIGN KEY (PlotID) REFERENCES Plots(PlotID)
+	ON DELETE CASCADE
+);
+
 
 
 
