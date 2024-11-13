@@ -33,6 +33,17 @@ CREATE TABLE Crops (
 	FOREIGN KEY (CropTypeID) REFERENCES CropTypes(CropTypeID)
 	ON DELETE CASCADE
 );
+-- Create Practices Table
+CREATE TABLE Practices (
+	PracticeID INT PRIMARY KEY,
+	PlotID INT NOT NULL,
+	PracticeType VARCHAR(100) NOT NULL,
+	StartDate DATE,
+	Description TEXT,
+	FOREIGN KEY (PlotID) REFERENCES Plots(PlotID)
+	ON DELETE CASCADE
+);
+
 
 
 
