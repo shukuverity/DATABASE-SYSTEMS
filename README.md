@@ -98,8 +98,12 @@ Stakeholders
 
 
 Addressing Stakeholder Needs
+
 •	Accessible Interface: A user-friendly interface with localized language options and mobile compatibility will ensure ease of access.
+
 •	Training and Support: For farmers and extension officers, we’ll offer guides and possibly in-app training modules to ensure they can use the database effectively.
+
 •	Real-Time Data and Analytics: Relevant stakeholders like NGOs, government agencies, and researchers will have access to robust analytics tools, enabling them to visualize trends, track progress, and identify gaps.
+
 •	Security and Privacy: Protecting farmer data is essential. We’ll implement security protocols to ensure that sensitive information remains private, allowing stakeholders to use the database confidently.
 
