@@ -25,23 +25,29 @@ Objective 1: Promote Crop Diversification
 
 Support farmers to diversify crops with the view of spreading risk and improving soil health.
 Advise on compatible combinations of crops that suit particular conditions.
+
 Objective 2: Enhance Soil Conservation
 
 Monitor and promote practices associated with soil conservation-cover cropping, reduced tillage, composting.
 Monitor indicators of soil health and recommend measures to enhance these.
+
 Objective 3: Facilitate Knowledge Sharing
 
 Allow farmers to share in experiences, challenges, and solutions relative to the adoption of sustainable practices.
 Provide access to education and expert advice.
+
 Objective 4: Data-Driven Decision Making
 
 Provide farmers with the ability to track practices, yields, and soil health over time.
 Reports are generated that will enable farmers to make better data-driven decisions regarding crop selection and best management practices.
+
 Objective 5: Impact and Sustainability
 
 Assess how diversified cropping and soil conservation will add to the productivity of the farm and health of the environment.
 Identify success indicators and areas of further improvement.
+
 Key Functionalities and Features
+
 1. User Management
 Farmer Profile Creation: Farmers can sign up by creating profiles and listing their farms.
 User Roles: Different levels of access for farmers, agricultural experts, and administrators.
