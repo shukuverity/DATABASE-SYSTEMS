@@ -152,6 +152,12 @@ VALUES (1, 1, 'Maize Seeds', 50, 'kg'),
 	INSERT INTO Farmers (FarmerID, Name, Location, ContactInfo)
 	VALUES (4, 'Sarah Johnson', 'Village D', '111-222-3333'),
 		(5, 'David Wilson', 'Village E', '444-555-6666');
+-- Insert more plots
+	INSERT INTO Plots (PlotID, FarmerID, Size, Location)
+	VALUES (4, 4, 2.0, 'West of Village D'),
+		(5, 5, 3.5, 'North of Village E');
+
+
 
 
 
