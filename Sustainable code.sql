@@ -179,10 +179,7 @@ VALUES (1, 1, 'Maize Seeds', 50, 'kg'),
 	INSERT INTO Inventory (InventoryID, PlotID, ItemName, Quantity, Unit)
 	VALUES (4, 4, 'Wheat Seeds', 60, 'kg'),
 		(5, 5, 'Rice Seeds', 35, 'kg');
--- Insert more profit records
-	INSERT INTO Profit (ProfitID, PlotID, Year, Revenue, Cost)
-	VALUES (4, 4, 2024, 4500, 2800),
-		(5, 5, 2024, 5500, 3200);
+
 
 
 
