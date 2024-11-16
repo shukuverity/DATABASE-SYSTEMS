@@ -183,6 +183,10 @@ VALUES (1, 1, 'Maize Seeds', 50, 'kg'),
 
 
 
+-- Insert more profit records
+	INSERT INTO Profit (ProfitID, PlotID, Year, Revenue, Cost)
+	VALUES (4, 4, 2024, 4500, 2800),
+		(5, 5, 2024, 5500, 3200);
 
 
 
