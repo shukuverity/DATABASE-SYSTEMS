@@ -142,7 +142,7 @@ VALUES (1, 1, 'Maize Seeds', 50, 'kg'),
 	(2, 2, 'Bean Seeds', 30, 'kg'),
 	(3, 3, 'Maize Seeds', 40, 'kg');
 	
--- Insert more crop types
+        -- Insert more crop types
 	INSERT INTO CropTypes (CropTypeID, CropTypeName)
 	VALUES (3, 'Wheat'),
 		(4, 'Rice'),
@@ -152,11 +152,11 @@ VALUES (1, 1, 'Maize Seeds', 50, 'kg'),
 	INSERT INTO Farmers (FarmerID, Name, Location, ContactInfo)
 	VALUES (4, 'Sarah Johnson', 'Village D', '111-222-3333'),
 		(5, 'David Wilson', 'Village E', '444-555-6666');
--- Insert more plots
+        -- Insert more plots
 	INSERT INTO Plots (PlotID, FarmerID, Size, Location)
 	VALUES (4, 4, 2.0, 'West of Village D'),
 		(5, 5, 3.5, 'North of Village E');
--- Insert more practices
+        -- Insert more practices
 	INSERT INTO Practices (PracticeID, PlotID, PracticeType, StartDate, Description)
 	VALUES (4, 4, 'Mulching', '2024-05-15', 'Applied mulch to conserve soil moisture.'),
 		(5, 5, 'Composting', '2024-06-15', 'Used compost to improve soil fertility.');
@@ -165,6 +165,20 @@ VALUES (1, 1, 'Maize Seeds', 50, 'kg'),
 	INSERT INTO SoilHealthMonitoring (MonitoringID, PlotID, MonitoringDate, SoilPH, OrganicMatter, ErosionLevel, Notes)
 	VALUES (4, 4, '2024-09-20', 6.7, 3.9, 'Medium', 'Continued efforts to reduce erosion.'),
 		(5, 5, '2024-10-20', 6.4, 4.1, 'Low', 'Promising results from soil health improvement.');
+        -- Insert more profit records
+	INSERT INTO Profit (ProfitID, PlotID, Year, Revenue, Cost)
+	VALUES (4, 4, 2024, 4500, 2800),
+		(5, 5, 2024, 5500, 3200);
+
+	-- Insert more yield records
+	INSERT INTO Yield (YieldID, PlotID, CropID, Year, TotalYield)
+	VALUES (4, 4, 3, 2024, 2.5),
+		(5, 5, 4, 2024, 3.8);
+
+	-- Insert more inventory records
+	INSERT INTO Inventory (InventoryID, PlotID, ItemName, Quantity, Unit)
+	VALUES (4, 4, 'Wheat Seeds', 60, 'kg'),
+		(5, 5, 'Rice Seeds', 35, 'kg');
 
 
 
