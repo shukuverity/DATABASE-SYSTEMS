@@ -160,9 +160,14 @@ VALUES (1, 1, 'Maize Seeds', 50, 'kg'),
 	INSERT INTO Practices (PracticeID, PlotID, PracticeType, StartDate, Description)
 	VALUES (4, 4, 'Mulching', '2024-05-15', 'Applied mulch to conserve soil moisture.'),
 		(5, 5, 'Composting', '2024-06-15', 'Used compost to improve soil fertility.');
-
 	-- Insert more soil health monitoring records
-	
+	INSERT INTO SoilHealthMonitoring (MonitoringID, PlotID, MonitoringDate, SoilPH, OrganicMatter, ErosionLevel, Notes)
+	VALUES (4, 4, '2024-09-20', 6.7, 3.9, 'Medium', 'Continued efforts to reduce erosion.'),
+		(5, 5, '2024-10-20', 6.4, 4.1, 'Low', 'Promising results from soil health improvement.');
+        -- Insert more profit records
+	INSERT INTO Profit (ProfitID, PlotID, Year, Revenue, Cost)
+	VALUES (4, 4, 2024, 4500, 2800),
+		(5, 5, 2024, 5500, 3200);
 	-- Insert more yield records
 	INSERT INTO Yield (YieldID, PlotID, CropID, Year, TotalYield)
 	VALUES (4, 4, 3, 2024, 2.5),
